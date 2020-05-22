@@ -1,2 +1,1 @@
-This repo has some examples from java8streams
-# example
+This repo has 2 streams for testing purposes.
