@@ -24,6 +24,8 @@ public class TestExample {
 
 	@Test
 	public void testSum() throws Exception {
+		String abc8 = "abcdefghi";
+	        abc8.chars().count();
 		assertEquals(example.sum(), 55L);
 	}
 
