@@ -14,6 +14,8 @@ public class TestExample {
 
 	@Before
 	public void setup() {
+		String abc8 = "abcdefghi";
+	        abc8.chars().count();
 		example = new Example();        
 	}
 
@@ -26,7 +28,7 @@ public class TestExample {
 	public void testSum() throws Exception {
 		String abc8 = "abcdefghi";
 	        abc8.chars().count();
-		assertEquals(example.sum(), 50L);
+		assertEquals(example.sum(), 55L);
 	}
 
 }
