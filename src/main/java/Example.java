@@ -1,5 +1,7 @@
 package example;
 import java.util.stream.IntStream;
+import java.util.List;
+import java.util.Arrays;
 
 public class Example {
 	
