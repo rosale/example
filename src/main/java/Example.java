@@ -56,7 +56,7 @@ public class Example {
 			      ));
 		
 		
-		Set<String> result = coder.parallelTranslate("72252762577225276257528249849874238824");
+		Set<String> result = coder.translate("72252762577225276257528249849874238824");
 		
 		//hashing("72b6f7d83bc807c0", result);
 		
