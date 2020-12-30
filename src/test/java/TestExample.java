@@ -16,34 +16,11 @@ import java.util.stream.Collectors;
 public class TestExample {
 
 
-	private Example example;
+	private Example example = new Example(); 
 
-
-	@Before
-	public void setup() {
-		String abc8 = "abcdefghi";
-	        abc8.chars().count();
-		example = new Example();        
-	}
 
 	@Test
-	public void testCount() throws Exception {
-		assertEquals(example.count(), 3L);
+	public void testScrabble() throws Exception {
+		assertEquals(example.scrabble(), 1L);
 	}
-
-	@Test
-	public void testSum() throws Exception {
-
-        List<String> g = Arrays.asList("geeks", "for", "geeks", "Alpha", "newer", "geeks"); 
-  
-        Map<String, Long> result 
-            = g.stream().collect( 
-                Collectors.groupingBy( 
-                    Function.identity(),
-                    () -> new TreeMap<String, Long>(Comparator.reverseOrder()),
-                    Collectors.counting())); 
-		
-		assertEquals(example.sum(), 55L);
-	}
-
 }
