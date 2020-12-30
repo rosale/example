@@ -20,7 +20,7 @@ public class TestExample {
 
 
 	@Test
-	public void testScrabble() throws Exception {
-		assertEquals(example.scrabble(), 1L);
+	public void testMnemonics() throws Exception {
+		assertEquals(example.mnemonics(), 1L);
 	}
 }
